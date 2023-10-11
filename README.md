@@ -1,23 +1,24 @@
+```
 # 51Assignmentjs
-##If you have any specific questions or need advice on anything related to JavaScript or GitHub, feel free to ask! Whether it's about a particular assignment, a coding concept, or how to improve your GitHub repository, I'm here to help.
+## If you have any specific questions or need advice on anything related to JavaScript or GitHub, feel free to ask! Whether it's about a particular assignment, a coding concept, or how to improve your GitHub repository, I'm here to help.
 
-###1- Create 20 Variables with different names and print them on console.\par
+### 1- Create 20 Variables with different names and print them on console.\par
 
-2- Perform Arithmetic operations (+,-,*,/,%,++,--,**) on two variables called num1 and num2 print results on console.\par
+### 2- Perform Arithmetic operations (+,-,*,/,%,++,--,**) on two variables called num1 and num2 print results on console.\par
 
-3- Perform Assignment operations (=,+=,-=,/=,*=,%=,**=) on two variables called ass1 and ass2 print results on console.\par
+### 3- Perform Assignment operations (=,+=,-=,/=,*=,%=,**=) on two variables called ass1 and ass2 print results on console.\par
 
-4- Perform Comparison operations (==, ===, !=, !==, >, <, >=, <=) on two variables called com1 and com2 and print results on console.\par
+### 4- Perform Comparison operations (==, ===, !=, !==, >, <, >=, <=) on two variables called com1 and com2 and print results on console.\par
 
-5- Perform Logical operations (&&, ||, !) on two variables called log1 and log2 and print results on console.\par
+### 5- Perform Logical operations (&&, ||, !) on two variables called log1 and log2 and print results on console.\par
 
-6- Make 10 functions (5 Regular and 5 Arrow) that gives output on console after getting called.\par
++ 6- Make 10 functions (5 Regular and 5 Arrow) that gives output on console after getting called.\par
 
-7- Build a tool that checks if a number is even or odd.\par
++ 7- Build a tool that checks if a number is even or odd.\par
 
-8- Get a detail of a user which includes name, email, phone, address and age from prompt and display that detail using alert.\par
++ 8- Get a detail of a user which includes name, email, phone, address and age from prompt and display that detail using alert.\par
 
-9- write a JS program, that can convert temp from F into C and show into console, using C = (F \f1\u8722?\f0  32) * 5/9. Data should taken by using prompt.\par
++ 9- write a JS program, that can convert temp from F into C and show into console, using C = (F \f1\u8722?\f0  32) * 5/9. Data should taken by using prompt.\par
 
 10- Make a function that have global scope.\par
 
@@ -103,5 +104,5 @@ Yellow background and if below 20% then red background.\par
 
 51- Make a js program that 3 buttons in DOM and whenever they get clicked they print themselves on console. (Use the addEventListener method).\lang9\par
 
-
+```
 #
