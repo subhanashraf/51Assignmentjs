@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        #battery{
+            width: 100px;
+            height: 300px;
+            border: 2px solid red;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="main">
+        <h1></h1>
+    <div id="battery">
+
+    </div>
+</div>
+
+    <script>
+        //45- Make a battery design in HTML document using the HTML and CSS, Then print the laptop's battery percentage in it. If battery percentage is above than 70% then battery should have green background, if below 70% and above 20% then Yellow background and if below 20% then red background.\par
+        let check =  navigator.getBattery().then(function(battery){
+            let level = battery.level;
+
+        let percentage= level*100;
+         
+        setTimeout(() => {
+            let h1= document.getElementsByTagName("h1");
+           h1[0].innerHTML=`${percentage}%`;
+        }, 0);
+
+
+        
+        if (percentage>=70) {
+            let color =document.getElementById("battery")
+            color.style.backgroundColor="green";
+        }
+       else if ((percentage<=69)&&(percentage>=20)) {
+            let color =document.getElementById("battery")
+            color.style.backgroundColor="yellow";
+        }
+        else {
+            let color =document.getElementById("battery")
+            color.style.backgroundColor="red";
+        }
+    })
+    </script>
+</body>
+</html>

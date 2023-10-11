@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+  <script>
+    //write a JS program, that can convert temp 
+    let givenvalue = prompt("Enter temperature //This program converts the temperature");
+    let uppercase = givenvalue.toUpperCase()//convert uppercase
+   
+    let lastindex = uppercase.lastIndexOf("C");
+    let removelast = givenvalue.slice(0, -1);//Remove the last character from the string.
+    
+    
+    let number = parseInt(removelast);//covert integer
+    
+   // Check if the temperature is in Celsius.
+    if (lastindex > 0) {
+      console.log("true")
+      let cels = (number * 9 / 5) + 32;
+      
+      alert(cels + "F");
+    }
+    else {
+      console.log("False")
+      let far = (number - 32) * 5 / 9;
+      
+      alert(far + "C");;
+    }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+    //49- Make an helper function that calculates average of the numbers.\par
+    // function average(arr) {
+    //  let sum = 0 ; 
+    //   for(let i = 0; i <=arr.length; i++)(
+    //    sum += arr[i]
+    //   )
+    //   return sum/arr.length;
+    // }
+    function average(numbers) {
+      let sum = 0;
+      for (let i = 0; i < numbers.length; i++) {
+        sum += numbers[i];
+      }
+      return sum / numbers.length;
+    }
+    let arr = []
+    let i = 0;
+    let chec;
+    do {
+      arr[i] = parseInt(prompt("Enter Number"));
+      chec = prompt("if you add other number and enter 'y' and no enter 'n'");
+      i++;
+    } while (chec == "y");
+     let ave= average(arr);
+     console.log("The average of "+ave);
+  </script>
+</body>
+
+</html>

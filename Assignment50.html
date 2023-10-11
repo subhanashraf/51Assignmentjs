@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //50- Make a js program that have 3 objects that uses the this keyword.\par
+        const person ={
+            name:"Emma Johnson",
+            Age: "32",
+            Location:" New York, USA",
+            meth: function (){
+            console.log("Name"+ this.name +"\nAge"+this.Age+"\nLocation"+this.Location );
+        }
+        }
+        const person2 ={    
+            name:" Alex Rodriguez",
+            Age: "28",
+            Location:"Los Angeles, USA",
+            meth: function (){
+            console.log("Name"+ this.name +"\nAge"+this.Age+"\nLocation"+this.Location );
+        }
+    }
+        const person3 ={    
+            name:"James Smith",
+            Age: "35",
+            Location:"London, UK",
+            meth: function (){
+            console.log("Name"+ this.name +"\nAge"+this.Age+"\nLocation"+this.Location );
+        }
+    }
+    person.meth()
+    person2.meth()
+    person3.meth()
+    </script>
+</body>
+</html>

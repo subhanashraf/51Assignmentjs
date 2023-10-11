@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div id="box">
+            <h1>Registration Form</h1>
+            <form >
+               Name <input type="text" placeholder="Enter your Name"><br>
+              Father Name <input type="text" class="space" placeholder="Enter your Father Name"><br>
+               Email<input type="email" placeholder="Enter your Email"><br>
+            </form>
+        </div>
+    </div>
+    <script>
+        //42- Make and style the form in html document using DOM.\par
+        let main = document.getElementById("main");
+        main.style.background="url(image/tree-sunrise-birds-reflection-seascape-aesthetic-5k-1024x1024-520.jpg)";
+        main.style.height= "100vh";
+        main.style.width=" 100vw";
+        main.style.backgroundRepeat= "noRepeat";
+        main.style.backgroundSize="100% 100%";
+        main.style.display="flex";
+        main.style.alignItems= "center";
+        main.style.justifyContent="center";
+        let box =document.getElementById("box");
+        box.style. width= "30%";
+        box.style. height="40%";
+        box.style. backgroundColor="aliceblue";
+        box.style.opacity="0.5";
+        box.style.padding="2% 3%";
+        let h1 =document.querySelector("#box h1");
+        h1.style.color= "lightseagreen";
+        let form= document.getElementsByTagName("form");
+        form[0].style.padding="6% 5%";
+        let space =document.getElementsByClassName("space");
+        space[0].style. margin= "6%";
+    </script>
+</body>
+</html>

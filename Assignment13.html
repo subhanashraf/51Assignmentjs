@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       // 13- Write a javascript function that takes two numbers and an operator using prompt and then perform that given operation on those two numbers and show the result on console.\par
+       function performoperator(num1, num2, sum) {
+      if(sum=="+"){
+        console.log(num1+num2);
+      }
+     else if(sum=="-"){
+        console.log(num1-num2);
+      }
+    else if(sum=="/"){
+        console.log(num1/num2);
+      }
+     else if(sum=="*"){
+        console.log(num1*num2);
+      }
+     else if(sum=="%"){
+        console.log(num1%num2);
+      }
+      else{
+        console("Enter correct value")
+      }
+
+       }
+        let num1 =parseInt(prompt("Enter first number"));
+        let num2 =parseInt(prompt("Enter Second number"));
+        let sum =prompt("Enter any operator ")
+        performoperator(num1,num2,sum)
+    </script>
+</body>
+</html>
