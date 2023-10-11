@@ -12,9 +12,9 @@
 
 ### 5- Perform Logical operations (&&, ||, !) on two variables called log1 and log2 and print results on console.\par
 
-+ 6- Make 10 functions (5 Regular and 5 Arrow) that gives output on console after getting called.\par
+### 6- Make 10 functions (5 Regular and 5 Arrow) that gives output on console after getting called.\par
 
-+ 7- Build a tool that checks if a number is even or odd.\par
+### 7- Build a tool that checks if a number is even or odd.\par
 
 + 8- Get a detail of a user which includes name, email, phone, address and age from prompt and display that detail using alert.\par
 
