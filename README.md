@@ -1,4 +1,4 @@
-```
+
 # 51Assignmentjs
 ## If you have any specific questions or need advice on anything related to JavaScript or GitHub, feel free to ask! Whether it's about a particular assignment, a coding concept, or how to improve your GitHub repository, I'm here to help.
 
@@ -16,11 +16,11 @@
 
 ### 7- Build a tool that checks if a number is even or odd.\par
 
-+ 8- Get a detail of a user which includes name, email, phone, address and age from prompt and display that detail using alert.\par
+### 8- Get a detail of a user which includes name, email, phone, address and age from prompt and display that detail using alert.\par
 
-+ 9- write a JS program, that can convert temp from F into C and show into console, using C = (F \f1\u8722?\f0  32) * 5/9. Data should taken by using prompt.\par
+### 9- write a JS program, that can convert temp from F into C and show into console, using C = (F \f1\u8722?\f0  32) * 5/9. Data should taken by using prompt.\par
 
-10- Make a function that have global scope.\par
++ 10- Make a function that have global scope.\par
 
 11- Make a function that have local scope.\par
 
@@ -104,5 +104,3 @@ Yellow background and if below 20% then red background.\par
 
 51- Make a js program that 3 buttons in DOM and whenever they get clicked they print themselves on console. (Use the addEventListener method).\lang9\par
 
-```
-#
